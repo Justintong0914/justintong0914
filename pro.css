@@ -1,0 +1,318 @@
+.all{
+	width: 100%;
+	height: 100vh;
+
+
+}
+.all1{
+	width: 95%;
+	height: 2000px;
+	border: 50px solid transparent;
+	background-color: #fbf8e7;
+}
+#all1{
+    -moz-border-image:url("pic/bk.jpg") 40 40 round;    /* 給 Firefox 看*/
+    -webkit-border-image:url("pic/bk.jpg") 40 40 round;    /* 給 Safari 與 Chrome 看*/
+    -o-border-image:url("pic/bk.jpg") 40 40 round;        /* 給 Opera 看*/
+    border-image:url("pic/bk.jpg") 40 40 round;
+}
+.namebox{
+    top:10%;
+	left:-5%;
+	background-color:#fff;
+	width:45%;
+	height: 180px;
+	display: flex;
+	color:	#cd853f;
+	transform: translate(-20%,-20%);
+	padding: 0px 100px;
+	justify-content: center;
+	align-items: center;
+    box-shadow: 12px 12px 7px rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+.name{
+	border-radius: 50%;
+	max-width: 200px;
+	max-height:200px;
+}
+.name1{
+	padding-left: 20px;
+	font-family: 'Baloo Bhai';
+	font-size:62px;
+}
+.big{
+   width: 100%;
+   height: 300px;
+}
+.small{
+width: 50%;
+height:300px;
+float: left;
+align-items: center;
+}
+.introduction{
+width: 800px;
+height: 210px;
+align-items: center;
+
+}
+.quote{
+	display: flex;
+	justify-content: center;
+	font-weight: bold;
+	font-size: 36px;
+	font-family: '微軟正黑體';
+}
+.pp{
+	align-items: center;
+	font-size: 20px;
+	margin: 0px 10px 0px 60px ;
+	font-family: '微軟正黑體';
+}
+.person{
+    padding-left: 20%;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+}
+.person button{
+	width: 100px;
+	height: 70px;
+	border: 2px #FFAF60 solid;
+	color: 	#EA7500;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: '微軟正黑體';
+}.person button:hover{
+	background-color:#D26900;
+	color: #fff;
+}
+.social{
+	margin: -90px 30px 0px 320px ;
+   padding:20px;
+}
+.social span{
+	color: 	#FFA042;
+}
+.mid{
+width: 50%;
+height: 400px;
+float: left;
+top: 10%;
+left: 0%;
+transform: translate(-0%,-20%);
+}
+.skillbox{
+	box-sizing: border-box;
+	flex-direction: row;
+	margin: 5px;
+	padding: 5px;
+	color:#886600;
+	font-family: 'Baloo Bhai';
+	font-size: 20px;
+}
+
+.title, .course, .club,.contact,.work{
+	color:	#844200;
+	font-family: '微軟正黑體';
+	font-weight: bolder;
+	font-size: 40px;
+}
+.skill{
+	background-color:	#BB5E00;
+	padding: 4px;
+	box-sizing: border-box;
+	color:white;
+	border-radius: 50px;
+}
+.skill_level{
+	background-color:#FF9224;
+	border-radius: 50px;
+	text-align: right;
+	height:20px;
+	z-index: 1;
+}
+.c{
+	animation-name: skillc;
+	animation-duration: 3s;
+}
+.java{
+	animation-name: skilljava;
+	animation-duration: 3s;
+}
+.html{
+	animation-name: skillhtml;
+	animation-duration: 3s;
+}
+.jsp{
+	animation-name: skilljsp;
+	animation-duration: 3s;
+}
+.photo{
+	animation-name: skillphoto;
+	animation-duration: 3s;
+}
+@keyframes skillc{
+	0%{width: 0%}
+	100%{width: 69%}
+}
+@keyframes skilljava{
+	0%{width: 0%}
+	100%{width: 80%}
+}
+@keyframes skillhtml{
+	0%{width: 0%}
+	100%{width: 60%}
+}
+@keyframes skilljsp{
+	0%{width: 0%}
+	100%{width: 82%}
+}
+@keyframes skillphoto{
+	0%{width: 0%}
+	100%{width: 60%}
+}
+.course{
+	width: 50%;
+	float: left;
+}
+.accordion {
+  background-color:	#FFED97;
+  color: 	black;
+  cursor: pointer;
+  padding: 18px;
+ width:90%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  margin:10px;
+}
+
+.active, .accordion:hover {
+  background-color: #FFA488;
+  color:black;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color:#F0FFF0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  width:80%;
+  font-size: 14px;
+  color:black;
+}
+.panel img{
+	width:150px;
+	height:200px;
+	float: left;
+}
+.pat2{
+	width: 100%;
+	height: 600px;
+}
+.club{
+	width: 50%;
+	float: left;
+}
+.club1{
+	width: 100%;
+}
+.clubimg{
+	width: 30%;
+  float: left;
+}
+.club img{
+	width: 200px;
+  height: 180px;
+}
+.club1p{
+	width: 70%;
+float: left;
+}
+.club h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    font-family: '微軟正黑體';
+}
+.club p{
+	font-size: 20px;
+    color: #000;
+    font-family: '微軟正黑體';
+}
+.club2{
+	width: 100%;
+	display: flex;
+}
+.clubimg2{
+	width: 30%;
+  float: left;
+}
+.club1p2{
+	width: 70%;
+float: left;
+}
+.pat3{
+	width:100%;
+}
+.contact{
+	width: 50%;
+	float: left;
+	align-items: center;
+}
+.contact1{
+	width: 400px;
+	height: 200px;
+	background-color: 	#FFD1A4;
+	border: 5px #844200 double;
+	color:#000;
+	font-size: 25px;
+	margin: 30px 10px 0px 160px ;
+}
+.work{
+	width: 50%;
+	float: left;
+}
+.work1{
+	width: 100%;
+}
+.workimg{
+	width: 30%;
+  float: left;
+}
+.work img{
+	width: 200px;
+  height: 180px;
+}
+.workp{
+	width: 70%;
+float: left;
+}
+.work h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    font-family: '微軟正黑體';
+}
+.work p{
+	font-size: 20px;
+    color: #000;
+    font-family: '微軟正黑體';
+}
+.wrok2{
+	width: 100%;
+	display: flex;
+}
+.workimg2{
+	width: 30%;
+  float: left;
+}
+.workp2{
+	width: 70%;
+float: left;
+}
