@@ -1,0 +1,281 @@
+/*這裡不要動*/
+.stay-top{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+text-align: center;
+box-shadow: 0px 0px 20px 4px rgba(0,0,0, 0.1);
+margin:auto;
+z-index: 99;
+transition: 0.3s;
+background:rgba(0,0,0,0);
+}
+.user{
+width: 35px;
+height: 35px;
+}
+.opp{
+position: absolute;
+top:18vh;
+left:88vw;
+color:#FFFFFF;
+font-family: "微軟正黑體";
+transition: 0.3s;
+}
+.dropbtn {
+position:relative;
+display: inline-block;
+border:0;
+background-color:#d08660;
+background:rgba(0,0,0,0);
+}
+.dropdown {
+  		position: relative;
+  		left:-15px;
+  		display: inline-block;
+}
+.top1{
+padding: 20px 0px 0px 0px;
+height: 170px;
+text-align: center;
+}
+/*最頂WAAZZZ(可以改)*/
+.stay-top a{
+	text-decoration: none;
+	text-align: center;
+}
+.stay-top h1{
+font-size: 50px;
+font-weight: bold;
+font-family:STLiti;
+color: #806945;
+}
+/*導覽列(可改)*/
+.brand{
+font-family: Microsoft JhengHei;
+font-size: 20px;
+color: #806945;
+display: inline;
+border-right:1px #B2ACAC solid;
+margin: 20px 15px 0px 15px;
+padding-right:15px;
+transition: 0.3s;
+}
+.brand:hover{
+font-weight:bolder;
+color:	#FFA042;
+}
+.et{	width: 165px;
+}
+.rm{	border-right:0;
+}
+.cool{	margin-left: auto;
+margin-right: auto;
+}
+.navv{	position:fixed;
+top:0;
+left:0;
+width:100%;
+background-color:#FFFFFF;
+text-align: center;
+box-shadow: 0px 0px 20px 4px rgba(0,0,0, 0.1);
+margin:auto;
+z-index: 99;
+transition: 0.3s;
+}
+/*註冊*/
+.dialog{
+			top:20%;
+	        left:38%;
+            border-radius:8px;
+	        display:none;
+	        z-index:4;
+	        transition:.5s;
+	        position:fixed;
+	        background-color:rgba(75,75,75,0.8);
+	        backdrop-filter:blur(8px);
+	        width:500px;
+	        height:520px;
+	        padding-top:40px;
+	        font-family: Microsoft JhengHei;
+		}
+		.dialog>.close{
+			position:absolute;
+			top:3px;
+			right:3px;
+		}
+		.dialog>.close img{
+			background-color:#ccc;
+			width:35px;
+			height:35px;
+			border-radius:999em;
+		}
+        .login{
+            width:260px;
+        	height:440px;
+        	border-radius:8px;
+        	display: flex;
+        	align-items:center;
+        	padding:20px;
+        
+        }
+        .form{
+        	width:400px
+        	color:#FFF;
+        }
+        .form h2{
+        	margin-bottom: 20px;
+        	padding-bottom: 20px;
+        	border-bottom: 1px solid #FFF;
+        }
+        .form .group{
+        	margin-bottom: 20px;
+        }
+        .form label{
+        	line-height: 2;
+        }
+        .form input{
+        	width: 100%;
+        	border: 1px solid #aaa;
+        	line-height: 3;
+        	border-radius: 5px;
+        }
+        .form .btn-group{
+        	font-size: 0;
+        }
+        .form .btn{
+        	font-size: 15px;
+        	border-radius: 5px;
+        	border:none;
+        	width: 100px;
+        	padding:10px 0;
+        	margin-top: 7px;
+        }
+        .btn-group2{
+        	padding-top: 20px;
+        	display: inline-block;
+        }
+        .btn2{
+ 		   padding: 10px 20px;
+           border: 1px solid #C7C7C7;
+           width: 220px;
+           border-radius: 8px;
+        }
+        .form .btn + .btn{
+        	margin-left: 20px;
+        }
+     .btn {
+           padding: 10px 20px;
+           border: 1px solid #C7C7C7;
+           background: -webkit-linear-gradient(#BFBFBF, #F7F7F7);
+           background: -o-linear-gradient(#BFBFBF, #F7F7F7);
+           background: linear-gradient(#BFBFBF, #F7F7F7);
+           background-color: #F7F7F7;
+           -webkit-border-radius: 8px;
+           -moz-border-radius: 8px;
+           border-radius: 8px;
+           color: #000000;
+           font-size: 14px;
+           font-family: '微軟正黑體';
+           text-decoration: none;
+           font-weight: bold;
+           -webkit-transition: 0.2s;
+           -moz-transition: 0.2s;
+           -o-transition: 0.2s;
+           cursor: pointer;
+           }
+ 		.btn:hover {
+  			background: none;
+  			background-color: #F7F7F7;
+   			border: 1px solid #ffffff;
+   			color: #301010;
+  		}
+		.btn:active {
+   			top: 1px;
+   			position: relative;
+   		}
+	    /*.................登入介面結束...................*/
+	    /*登入會員的話*/
+	    .member{
+	    	top:20%;
+	        left:38%;
+            border-radius:8px;
+	        z-index:4;
+	        transition:.5s;
+	        position:fixed;
+	        background-color:rgba(75,75,75,0.8);
+	        backdrop-filter:blur(8px);
+	        width:500px;
+	        height:520px;
+	        padding-top:40px;
+	        text-align: center;
+	        display: none;
+	        font-family: Microsoft JhengHei;
+
+	    }
+	    .member>.close{
+			position:absolute;
+			top:3px;
+			right:3px;
+		}
+		.member>.close img{
+			background-color:#ccc;
+			width:35px;
+			height:35px;
+			border-radius:999em;
+		}
+		.name{
+			width: 260px;
+			height: 150px;
+			text-align: center;
+		}
+		.name img{
+			width: 80px;
+			height: 80px;
+		}
+    /*搜尋*/
+    .search{
+	        top:25%;
+	        left:88%;
+            border-radius:8px;
+	        z-index:4;
+	        transition:.5s;
+	        position:fixed;
+	        background-color:rgba(75,75,75,0.8);
+	        backdrop-filter:blur(8px);
+	        width:250px;
+	        height:100px;
+	        padding-top:50px;
+	         display:none;
+	
+}
+.closee{
+	position:absolute;
+			top:3px;
+			right:25px;
+}
+.closee img{
+	        width:20px;
+			height:20px;
+
+}
+.inputsearch{		
+		width:150px;
+		height:40px;
+		margin: 0px 0px 0px 9px;
+}
+.searchpic{
+		width:40px;
+		height:40px;
+		display:inline;
+}
+.searchbutton{
+		width:40px;
+		height:40px;
+		position:relative;
+		left:0px;	
+		top:0px;	
+		background-color:#D7D7D7;
+		border:1px #B4B4B4 solid;
+}
