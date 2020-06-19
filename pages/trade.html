@@ -88,31 +88,30 @@
         }     
     </script>
         <!--登入-->
-    <div onclick="closescr();" class="dialog" id="dialog">
-        <div class="close"><a href="#" onclick="closeDialog();"><img src="../assets/img/cross.png"></a></div>
-        <div class="BOX1" style="z-index:-1;width: 100%;">
-            <div class="login" style="margin:0px auto;">
-               <form class="form" action="" method="POST"> 
-                <h2 style="color:#FFF;">會員登入</h2>
-                <div class="group">
-                    <label for="user-id" style="color:#FFF;">帳號</label>
-                    <input type="text" onKeyUp="value=value.replace(/[\W]/g,'')" name="userid" id="userid" maxlength="10">
-                </div>
-                <div class="group">
-                    <label for="user-password" style="color:#FFF;">密碼</label>
-                    <input type="password" onKeyUp="value=value.replace(/[\W]/g,'')" name="userpassword" id="userpassword" maxlength="10">
-                </div>
-                <div class="btn-group">
-                    <button class="btn" >登入</button>
-                    <button class="btn" onclick="window.open('')">忘記密碼</button>
-                </div>
-                <div class="btn-group2">
-                   <button class="btn2" onclick="window.open('editmember.html')" >沒有帳號 ? 點擊註冊</button>
-                </div>
-                </form>
-            </div>     
-        </div>
-    </div>
+     <div onclick="closescr();" class="dialog" id="dialog">
+                            <div class="close"><a href="#" onclick="closeDialog();"><img src="../assets/img/cross.png"></a></div>
+                            <div class="BOX1" style="z-index:-1;width: 100%;">
+                                <div class="login" style="margin:0px auto;">
+                                    <form class="form" action=".jpg" method="POST">
+                                        <h2 style="color:#FFF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;會員登入</h2>
+                                        <div class="group">
+                                            <label for="user-id" style="color:#FFF; font-size: 30px;">Member account</label>
+                                            <input type="text" onKeyUp="value=value.replace(/[\W]/g,'')" name="userid" id="userid" maxlength="10">
+                                        </div>
+                                        <div class="group">
+                                            <label for="user-password" style="color:#FFF;font-size: 30px;">Password</label>
+                                            <input type="password" onKeyUp="value=value.replace(/[\W]/g,'')" name="userpassword" id="userpassword" maxlength="10">
+                                        </div>
+                                        <div class="btn-group">
+                                            <button class="btn" type="submit">Member login</button><br>
+                                        </div>
+                                        <div class="btn-group">
+                                            <button class="btn" onclick="window.open('pages/editmember.html')">New customer</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
      <!--搜尋部分-->
        <div  onclick="closescr();" class="search" id="search">
         <div class="closee"><a href="#" onclick="closeSearch();"><img src="../assets/img/cross.png"></a></div>
@@ -136,33 +135,29 @@
                         <tr>
                             
                             <th>訂單編號</th>
-                            <th>商品名稱</th>
-                            <th>商品數量</th>
-                            <th>商品金額</th>
-                            <th>總金額</th>
+                            <th>商品總金額</th>
+                            <th>付款方式</th>
+                            <th>商運送方式</th>
+                            <th>訂單細節</th>
                             
                         </tr>
                         <tr>
-
+               <form action="trade_detail.html" method="post" accept-charset="utf-8">
                             <td>001</td>
-                            <td>北極熊襪</td>
-                            <td>3</td>
-                            <td>100</td>
                             <td>300</td>
+                            <td>隨便你</td>
+                            <td>隨便你</td>
+                            <td><input type="submit"  value="訂單細節"></td>
+                            </form>
                         </tr>
 
                     </table>
                 </div>
             </div>
-            <div class="trade-3">
-                <a href="../index.html" class="trade-back"><img src="../assets/img/undo.png">回首頁</a>
-                <a href="item.html" style="margin-left: 1230px;" class="go-shopping"><img src="../assets/img/go-shopping.png">繼續購物</a>
-            </div>
         </div>
                     <footer>
                     <div style="width: 100%;height:80px;background-color: #fff"></div>
             <br>
-            <hr class="style-two" style="justify-content: center;">
             <div class="footer" style="display: flex;justify-content: center;">
                 <div class="container" style="display: flex;justify-content: center;">
                     <div class="footer-item3" style="width: auto;">
